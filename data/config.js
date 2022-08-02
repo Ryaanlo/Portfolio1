@@ -9,7 +9,7 @@ export const hero = {
 };
 
 export const experience = {
-  title: 'My Projects',
+  title: 'Experience',
   desc: "Here are some of my favorite projects that I've worked on.",
   projects: [
     {
@@ -34,7 +34,7 @@ export const experience = {
 };
 
 export const education = {
-  title: 'My Projects',
+  title: 'Education',
   desc: "Here are some of my favorite projects that I've worked on.",
   projects: [
     {
@@ -125,8 +125,8 @@ export const stack = {
 
 export const contact = {
   title: 'Contact Me',
-  email: 'lebron@gmail.com',
-  github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  email: 'ryanlo@cmail.carleton.ca',
+  github: 'ryaanlo',
+  resume: 'Ryan_Lo_Resume_New.pdf',
+  linkedin: 'ryaanlo'
 };

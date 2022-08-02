@@ -9,8 +9,10 @@ export default function Hero() {
       <div className="flex flex-row items-center justify-between w-full">
         <div className="w-20 h-20 rounded-full relative overflow-hidden">
           <Image
-            src="/static/profile.png"
-            layout="fill"
+            src="/static/profile.jpg"
+            layout="fixed"
+            width={80}
+            height={100}
             objectFit="contain"
             alt="LeBron"
           />

@@ -33,14 +33,14 @@ export default function Stack() {
             />
           </a>
         )}
-        {contact.dribbble && (
+        {contact.resume && (
           <a
-            href={`https://dribbble.com/${contact.dribbble}`}
+            href={`/files/${contact.resume}`}
             target="_blank"
             rel="noreferrer"
           >
             <Image
-              src="/static/icons/dribbble.svg"
+              src="/static/icons/file.png"
               width={20}
               height={20}
               alt="Dribbble icon"
