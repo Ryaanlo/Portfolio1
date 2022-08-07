@@ -10,52 +10,36 @@ export const hero = {
 
 export const experience = {
   title: 'Experience',
-  desc: "Here are some of my favorite projects that I've worked on.",
-  projects: [
+  desc: "Here are some of my past experiences.",
+  experience: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
-      github: ''
+      title: 'Canada Revenue Agency (CRA)',
+      description: 'Junior Developer',
+      jobdes: [
+        "hi",
+        "sup"
+      ],
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
+      title: 'WarnerMedia',
+      description: 'Software Developer',
+      jobdes: [
+        "hi"
+      ],
     },
     {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
+      title: 'Carleton University',
+      description: 'Teaching Assistant',
+      jobdes: [
+        "hi"
+      ],
     }
   ]
 };
 
 export const education = {
   title: 'Education',
-  desc: "Here are some of my favorite projects that I've worked on.",
-  projects: [
-    {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
-      github: ''
-    },
-    {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
-    },
-    {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
-    }
-  ]
+  desc: "Carleton University",
 };
 
 export const projects = {
@@ -63,19 +47,19 @@ export const projects = {
   desc: "Here are some of my favorite projects that I've worked on.",
   projects: [
     {
-      title: 'Lakers Official',
+      title: 'Portfolio',
       description: 'Home to the Los-Angeles Lakers',
       link: 'https://lakers.com',
       github: ''
     },
     {
-      title: 'Cool App',
+      title: 'Bookstore',
       description: 'A cool app!',
       link: 'https://lebronscoolapp.com',
       github: 'theking-lbj/cool-app'
     },
     {
-      title: 'Another app',
+      title: 'Trivia Quiz',
       description: 'Another app!',
       link: 'https://anotherlebronapp.com',
       github: 'theking-lbj/another-app'
@@ -117,9 +101,10 @@ export const stack = {
     'Typescript',
     'React',
     'NextJS',
-    'TailwindCSS',
-    'Firebase',
-    'Git'
+    'C++',
+    'C',
+    'Java',
+    'Python'
   ]
 };
 
