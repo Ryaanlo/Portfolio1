@@ -15,14 +15,14 @@ export default function Experience() {
         <div className=" mt-8">
           {experience.experience.map((item, index) => {
             return (
-              <ul class = "a"
+              <ul className = "a"
                 key={index}
                 //className="p-6 border border-lightText rounded-xl mb-4"
               >
-                <li class="item one">
+                <li className="item one">
                   <h3>{item.title}</h3>
                   <p>{item.description}</p>
-                  <ul class="list">
+                  <ul className="list">
                     {item.jobdes}
                   </ul>
                 </li>

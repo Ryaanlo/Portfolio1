@@ -16,14 +16,6 @@ export default function Index() {
       <div className="p-6 lg:p-20 max-w-4xl m-auto w-full">
         <Hero />
         <div className="p-0 space-y-10">
-          <a
-            href="/files/Ryan_Lo_Resume_New.pdf"
-            alt="alt text"
-            target="_blank"
-            rel="file.png"
-            >
-            <img src="static/icons/file.png" width="64"/>
-          </a>
           <Experience />
           <Education />
           <Projects />
